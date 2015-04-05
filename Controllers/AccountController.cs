@@ -14,6 +14,7 @@ using MvcEF.Models;
 namespace MvcEF.Controllers
 {
     [Authorize]
+
     [InitializeSimpleMembership]
     public class AccountController : Controller
     {
